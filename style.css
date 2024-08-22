@@ -11,10 +11,10 @@
     src: url(./Fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf);
   }
   body{
-   
+ 
     background-image: 
     linear-gradient(rgba(255, 255, 255, 0.395), rgba(255, 255, 255, 0.395)), 
-    url(./Images/Coffee\ espresso\ template1.jpg);
+    url(./images/download\ -2.jpeg);
     background-size: cover;
     background-attachment:fixed;
     background-repeat: no-repeat;
@@ -51,3 +51,101 @@
       background-color: rgb(75, 38, 20);
     color: #fff;
     }
+
+     /* Home */
+  .home{
+    display: flex;
+    justify-content: space-between;
+  }
+  .home-heading{
+    padding: 200px 70px;
+
+    font-size: large;
+font-family: 'Times New Roman', Times, serif;
+  }
+  .home-heading h1{
+    font-size:40px;
+  }
+  h1 em{
+  font-size: 10px;
+  font-style: normal; 
+  }
+  .home-heading p{
+    padding:5px 0;
+  }
+  
+
+  .home-heading button {
+    text-decoration: none;
+    color: rgb(75, 38, 20);
+    border: 1px solid rgb(75, 38, 20);
+    background-color: transparent ;
+    padding: 10px;
+    margin-left: 20%;
+    margin-top: 15px;
+    border-radius: 5px;
+  }
+  
+  .home-heading button:hover {
+    background-color: rgb(75, 38, 20);
+    color: #fff;
+  }
+  /* Coffee */
+  .coffee-container {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+   
+  }
+
+.coffee-container .coffee-cup{
+  width: 190px;
+  height: 200px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.265),rgba(0, 0, 0, 0.265)) , 
+  url(./coffee-images/background-image.jpeg);
+  background-size: cover;
+  color: #fff;
+  border-radius: 10px;
+  text-align: center;
+  margin-bottom: 50px;
+  transition: transform 0.4s ease-in 0.09s;
+}
+  
+.coffee-container .coffee-cup:hover {
+  transform: scale(1.1);
+}
+
+.coffee-cup img{
+  width: 150px;
+  height: 130px;
+  position: relative;
+  top: -40px;
+  border-radius: 50%;
+}
+.coffee-cup h2{
+  margin-top: -15px;
+}
+.coffee-cup p{
+  font-size: 13px;
+  padding: 05px;
+}
+
+    
+  .Offer{
+    margin-top: -90px;
+    margin-left: -100px;
+
+  }
+  .Offer img{
+    width: 100px;
+  }
+.home-image img{
+    width: 150px
+  }
+.home-image {
+  position: relative;
+  animation-name: move;
+  animation-duration: 1s;  
+  animation-fill-mode: both;
+  animation-iteration-count: 1;
+}
